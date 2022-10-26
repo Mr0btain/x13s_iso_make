@@ -1,0 +1,17 @@
+name: Build test iso 
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run make iso script
+        run: |
+          sudo apt-get update
+          sudo apt-get install mtools
+          sudo apt-get install mkisofs
+          sudo apt-get install xorriso
+          chmod +x ./make_iso.sh
+          bash ./make_iso.sh
+        shell: bash
+          

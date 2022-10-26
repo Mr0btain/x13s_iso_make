@@ -13,7 +13,7 @@ jobs:
           sudo apt-get install mtools
           sudo apt-get install mkisofs
           sudo apt-get install xorriso
-          chmod +x ./.github/make_iso.sh
-          bash ./.github/make_iso.sh
+          chmod +x ./make_iso.sh
+          bash ./make_iso.sh
         shell: bash
           

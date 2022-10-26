@@ -1,0 +1,5 @@
+You will have to replace the UUID part in the grub.cfg with that of the drive you have
+your kernel on, while in live env it should be mounted to target. a fallback is auto included 
+in the grub.cfg that is in case you install another kernel and things go wrong, it will fall 
+back on the .old versions of vlinuz and initrd.img.
+

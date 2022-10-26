@@ -29,7 +29,7 @@ chown -R $USER:$USER $PWD/image
         -iso-level 3 \
         -full-iso9660-filenames \
         -volid "UBUNTU_X13S" \
-        -output "../ubuntu-jammy-arm64-custom.iso" \
+        -output "../ubuntu-kinetic-arm64-custom.iso" \
         -eltorito-alt-boot \
             -e EFI/efiboot.img \
             -no-emul-boot \

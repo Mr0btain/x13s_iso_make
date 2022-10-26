@@ -13,6 +13,8 @@ jobs:
           sudo apt-get install mtools
           sudo apt-get install mkisofs
           sudo apt-get install xorriso
+          git clone https://github.com/Mr0btain/x13s_iso_make.git
+          cd x13s_iso_make
           chmod +x ./make_iso.sh
           bash ./make_iso.sh
         shell: bash

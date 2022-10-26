@@ -16,4 +16,7 @@ jobs:
           chmod +x ./make_iso.sh
           bash ./make_iso.sh
         shell: bash
+      - uses: actions/upload-artifact@v3
+        with:
+          path: ubuntu-kinetic-arm64-custom.iso
           

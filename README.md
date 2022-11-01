@@ -1,4 +1,16 @@
 # x13s_iso_make
+
+This uses github LFS for the squashfs file. so you have to close it with git lfs example:
+
+For Ubuntu:
+Make sure you have git-lfs installed. 
+
+sudo apt install git-lfs
+
+then clone said repo:
+
+git lfs clone https://github.com/Mr0btain/x13s_iso_make.git
+
 Quickly add uuid to dtb and pack iso for Lenovo x13s
 
 Made usuing jhohisel's repo: https://github.com/jhohisel/custom-ubuntu-arm64-livecd

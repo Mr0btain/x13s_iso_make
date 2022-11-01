@@ -1,6 +1,6 @@
 # x13s_iso_make
 
-This uses github LFS for the squashfs file. so you have to close it with git lfs example:
+This uses github LFS for the squashfs file. so you have to clone it with git lfs example:
 
 For Ubuntu:
 Make sure you have git-lfs installed. 

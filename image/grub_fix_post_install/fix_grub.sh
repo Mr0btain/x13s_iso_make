@@ -30,7 +30,7 @@ insmod all_video
 
 menuentry "Ubuntu" {
     linux /boot/vmlinuz root=UUID=${nvmeuuid} pd_ignore_unused clk_ignore_unused modprobe.blacklist=msm quite ---
-    initrd /boot/initrd
+    initrd /boot/initrd.img
 }
 
 menuentry "Ubuntu Fallback Kernel" {
@@ -54,3 +54,6 @@ printf "Fixing the grubaa64.efi"
     --fonts="" \
     "boot/grub/grub.cfg=$PWD/x13s_post_patch/grub.cfg"
 )
+
+printf "Copying DTB from kernel"
+cp /usr/lib/linux-image-*/qcom/sc8280xp-lenovo-thinkpad-x13s.dtb /dtb/${sysuuid}

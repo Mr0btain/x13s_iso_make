@@ -1,5 +1,8 @@
 #! /bin/bash
 
+#Create dtb dir
+mkdir dtb
+
 # Get system-UUID.
 sysuuid=$(dmidecode -s system-uuid)
 nvmeuuid=yourNVME_UUIDhere
@@ -56,4 +59,4 @@ printf "Fixing the grubaa64.efi"
 )
 
 printf "Copying DTB from kernel"
-cp /usr/lib/linux-image-*/qcom/sc8280xp-lenovo-thinkpad-x13s.dtb /dtb/${sysuuid}
+cp /usr/lib/linux-image-*/qcom/sc8280xp-lenovo-thinkpad-x13s.dtb dtb/${sysuuid}.dtb

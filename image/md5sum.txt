@@ -1,0 +1,13 @@
+1cd17c499c0d24745cdcf787f4726f3f  ./README.diskdefines
+caa3b22d19dc7724ffbb565612fa0993  ./casper/filesystem.squashfs
+fa4e7ab1b026b2c455d30f5e005fcaff  ./casper/filesystem.manifest-desktop
+d284294b9a4ec449870a1034d8bb9b86  ./casper/vmlinuz
+150638c28af6e1c2d8a4a9dd9b068ced  ./casper/filesystem.size
+73303642661a494471d5c67e816df40e  ./casper/filesystem.manifest
+a61447a04d86c0c70cfe827ebba31990  ./casper/initrd
+ed37b49e493aff87d161cd5dce174d64  ./isolinux/bootaa64.efi
+5f9d83fd13dfe13bd5337d98a6efe806  ./isolinux/grub.cfg
+fd9ff017c92c355b5b6c1d03e7de982c  ./isolinux/dtb/f249803d-0d95-54f3-a28f-f26c14a03f3b.dtb
+ac6f5e21ef734c43684e3ce54dab85a6  ./isolinux/grubaa64.efi
+d41d8cd98f00b204e9800998ecf8427e  ./ubuntu
+79e1294cc2aace62a33738d360c040a5  ./tools/Shell.efi

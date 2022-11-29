@@ -7,7 +7,7 @@ Iso made with Jhohisels script, albiet ive modified it for my use case.
 
 Flash iso, install, Run patch *CHECK HOW_TO.TXT*
 
-# Current Kernel: 6.0.3 
+# Current Kernel: 6.0.7
     https://github.com/steev/linux/tree/lenovo-x13s-6.0.7
 
 # What works:
